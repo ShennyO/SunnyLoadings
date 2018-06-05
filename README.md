@@ -33,7 +33,7 @@ Known bug: When clicking the home button and returning to the app, or when chang
 
 ## Author
 
-ShennyO, ShenOuyang.work@gmail.com
+ShennyO, SunnyOuyang.work@gmail.com
 
 ## License
 
