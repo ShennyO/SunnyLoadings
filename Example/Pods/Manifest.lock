@@ -1,0 +1,16 @@
+PODS:
+  - SunnyLoadings (0.1.0)
+
+DEPENDENCIES:
+  - SunnyLoadings (from `../`)
+
+EXTERNAL SOURCES:
+  SunnyLoadings:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SunnyLoadings: f4e80d1573930bc5f62f06d2997c32509b41aa52
+
+PODFILE CHECKSUM: fbffcefb1d744535942ae7c15c235a7914815d83
+
+COCOAPODS: 1.4.0
