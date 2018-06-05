@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 
-enum Result {
+public enum Result {
     case success
     case failure
 }
@@ -12,7 +12,7 @@ public class Loader {
     
     //How do I make a singleton instance when I have to pass in parameters?
     
-    var vc: UIViewController!
+    public var vc: UIViewController!
     
     //MARK: VIEWS
     var baseView: UIView!
@@ -32,11 +32,11 @@ public class Loader {
     var rotateAnimation: CABasicAnimation!
     
     
-    init(vc: UIViewController) {
+    public init(vc: UIViewController) {
         self.vc = vc
     }
     
-    func animateBaseViewLayers(x: CGFloat, y: CGFloat, size: CGFloat) {
+    public func animateBaseViewLayers(x: CGFloat, y: CGFloat, size: CGFloat) {
         
         //MARK: BASE VIEW (FOR ROTATING, EXPANDING VIEWS)
         
@@ -307,7 +307,7 @@ public class Loader {
         completion()
     }
     
-    func stopAllAnimations(result: Result) {
+    public func stopAllAnimations(result: Result) {
         
         vc.view.addSubview(colorView)
         
