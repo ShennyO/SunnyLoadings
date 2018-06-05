@@ -12,7 +12,7 @@
 		4D623E34DC49DA259E89D2B59EB6C9D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52804AEFCDF6738CB576360F5695AE02 /* Pods-SunnyLoadings_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C525CD47CED4CC2A26F7B63C587E64 /* Pods-SunnyLoadings_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA25DC03750C16232B52BC902A1C7979 /* SunnyLoadings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F60192B30C6DE413A2104FA2E4A31 /* SunnyLoadings-dummy.m */; };
-		D95CA4E346D49891C8CEF2E89528B6EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443D651A602E5612754DD6B84CA3405 /* ReplaceMe.swift */; };
+		D95CA4E346D49891C8CEF2E89528B6EF /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443D651A602E5612754DD6B84CA3405 /* Loading.swift */; };
 		DB2B31E23F715E1E591000C0CBFA0075 /* SunnyLoadings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80109465B224DEA0FB24E0ABB9B0ECE2 /* SunnyLoadings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB989674303BEFBD5DB55AB443322A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EF9BD838241FCBA1B62A149A75BDDFC8 /* Pods-SunnyLoadings_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D4CEF00210141F4B6CB6C94B98F9A4 /* Pods-SunnyLoadings_Tests-dummy.m */; };
@@ -35,18 +35,18 @@
 		0E31BB48B812F3008D9AF8636434C931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E545873D67070EE5F7B9D0C9FC3FF18 /* Pods-SunnyLoadings_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SunnyLoadings_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		14217A8890C3F41EB91DB3F813853E9B /* Pods-SunnyLoadings_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunnyLoadings_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1443D651A602E5612754DD6B84CA3405 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SunnyLoadings/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1443D651A602E5612754DD6B84CA3405 /* Loading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loading.swift; path = SunnyLoadings/Classes/Loading.swift; sourceTree = "<group>"; };
 		4EA8C1B4956231153F80C4A102F7CE92 /* Pods-SunnyLoadings_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunnyLoadings_Example-umbrella.h"; sourceTree = "<group>"; };
 		50BE7B284045BA2FF53EEE2351FCFE50 /* Pods-SunnyLoadings_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunnyLoadings_Tests.modulemap"; sourceTree = "<group>"; };
-		5B7B84C0E6005AC4381E7B7FA137BAC8 /* Pods_SunnyLoadings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SunnyLoadings_Example.framework; path = "Pods-SunnyLoadings_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7B84C0E6005AC4381E7B7FA137BAC8 /* Pods_SunnyLoadings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyLoadings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		631067AF601A359248BCD47EF7D9BC12 /* Pods-SunnyLoadings_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SunnyLoadings_Example.modulemap"; sourceTree = "<group>"; };
 		64C9E2D6BD7B7165973BE21B884A276E /* Pods-SunnyLoadings_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunnyLoadings_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79F0891A9B5E5B3A9953C858B328DE2E /* Pods-SunnyLoadings_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunnyLoadings_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7BD9A98EE805CEBBE416EC6896AD34C2 /* SunnyLoadings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SunnyLoadings.framework; path = SunnyLoadings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD9A98EE805CEBBE416EC6896AD34C2 /* SunnyLoadings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SunnyLoadings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80109465B224DEA0FB24E0ABB9B0ECE2 /* SunnyLoadings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunnyLoadings-umbrella.h"; sourceTree = "<group>"; };
 		937FB12B3044643EA070A289F228DCD6 /* Pods-SunnyLoadings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunnyLoadings_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94592C517153654A4EDB713B4C539B93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C525CD47CED4CC2A26F7B63C587E64 /* Pods-SunnyLoadings_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SunnyLoadings_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9FA912AE0E4D3A5AC9C3C3B038054E5A /* Pods-SunnyLoadings_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SunnyLoadings_Example-resources.sh"; sourceTree = "<group>"; };
@@ -56,15 +56,15 @@
 		B41F60192B30C6DE413A2104FA2E4A31 /* SunnyLoadings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SunnyLoadings-dummy.m"; sourceTree = "<group>"; };
 		C86671769AAF4D3CD11614CF01F1AC02 /* SunnyLoadings.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SunnyLoadings.xcconfig; sourceTree = "<group>"; };
 		C8E24D5C981777A0E9AD95C843A41418 /* SunnyLoadings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SunnyLoadings.modulemap; sourceTree = "<group>"; };
-		D855392000B56B016617BCCD37709608 /* Pods_SunnyLoadings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SunnyLoadings_Tests.framework; path = "Pods-SunnyLoadings_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D855392000B56B016617BCCD37709608 /* Pods_SunnyLoadings_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunnyLoadings_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91503FF84DF1BCAF649213C80DE5395 /* Pods-SunnyLoadings_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SunnyLoadings_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DE78E7A9090BC928DA46DF2C482BD3B1 /* SunnyLoadings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SunnyLoadings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E8468A879DAECE1678B05C929D6A5068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE78E7A9090BC928DA46DF2C482BD3B1 /* SunnyLoadings.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SunnyLoadings.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8468A879DAECE1678B05C929D6A5068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F1B21A4ACFC095590B358487F5BEA218 /* Pods-SunnyLoadings_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunnyLoadings_Example-dummy.m"; sourceTree = "<group>"; };
 		F297CF35C66AA1386E1A6CE47104DD26 /* SunnyLoadings-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SunnyLoadings-prefix.pch"; sourceTree = "<group>"; };
 		F4D4CEF00210141F4B6CB6C94B98F9A4 /* Pods-SunnyLoadings_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SunnyLoadings_Tests-dummy.m"; sourceTree = "<group>"; };
 		F6F8059C5F9C5DF09B30F640AB4B1CB6 /* Pods-SunnyLoadings_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SunnyLoadings_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F9BDB85AD0B76D4C46ADFB34B4581DC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F9BDB85AD0B76D4C46ADFB34B4581DC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,7 @@
 		E75B52B7C8CC8DF94FFBF3A27306D389 /* SunnyLoadings */ = {
 			isa = PBXGroup;
 			children = (
-				1443D651A602E5612754DD6B84CA3405 /* ReplaceMe.swift */,
+				1443D651A602E5612754DD6B84CA3405 /* Loading.swift */,
 				ADE9BC1FD4442EDD6F88FABFDA3482B5 /* Pod */,
 				46960CC6EF4A700B6394031080AAD6E1 /* Support Files */,
 			);
@@ -351,7 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95CA4E346D49891C8CEF2E89528B6EF /* ReplaceMe.swift in Sources */,
+				D95CA4E346D49891C8CEF2E89528B6EF /* Loading.swift in Sources */,
 				CA25DC03750C16232B52BC902A1C7979 /* SunnyLoadings-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

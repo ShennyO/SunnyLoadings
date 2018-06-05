@@ -20,6 +20,17 @@ it, simply add the following line to your Podfile:
 pod 'SunnyLoadings'
 ```
 
+## To Use:
+
+1. Instantiate the loader class  ``` let loader = Loader(vc: self) ```
+2. To start the loading animation, call the method startAnimations and specify the position and size of your preferred loading indicator ``` loader.startAnimations(x: self.view.bounds.midX, y: self.view.bounds.midY, size: self.view.bounds.width * 0.3) ```
+3. To end the animations, just call the method stopAllAnimations with the specific case, whether it's a success: ``` loader.stopAllAnimations(result: .success) ``` or failure: ``` loader.stopAllAnimations(result: .failure) ```
+
+## Extra Notes:
+
+Known bug: When clicking the home button and returning to the app, or when changing view controllers, the expanding and shrinking animation of the circle is automatically removed. To work around this, developers can call the method removeAnimationViews: ``` loader.removeAnimationViews() ``` when leaving the view and call the function 'startAnimations': ``` loader.startAnimations(x: self.view.bounds.midX, y: self.view.bounds.midY, size: self.view.bounds.width * 0.3) ``` again when the view is displayed again.
+
+
 ## Author
 
 ShennyO, ShenOuyang.work@gmail.com

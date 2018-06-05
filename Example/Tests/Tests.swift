@@ -1,5 +1,5 @@
 import XCTest
-import SunnyLoadings
+
 
 class Tests: XCTestCase {
     
