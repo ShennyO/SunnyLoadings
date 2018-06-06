@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SunnyLoadings.svg?style=flat)](https://cocoapods.org/pods/SunnyLoadings)
 
 
-![preview](/Users/shenny/Desktop/SunnyLoadings/ezgif.com-video-to-gif.gif)
+![preview](https://github.com/ShennyO/SunnyLoadings/blob/master/Users/shenny/Desktop/SunnyLoadings/ezgif.com-video-to-gif.gif)
 
 
 ## Example
