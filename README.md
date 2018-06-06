@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SunnyLoadings.svg?style=flat)](https://cocoapods.org/pods/SunnyLoadings)
 [![Platform](https://img.shields.io/cocoapods/p/SunnyLoadings.svg?style=flat)](https://cocoapods.org/pods/SunnyLoadings)
 
+
+![preview](/Users/shenny/Desktop/SunnyLoadings/ezgif.com-video-to-gif.gif)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
