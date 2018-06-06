@@ -23,7 +23,7 @@ pod 'SunnyLoadings'
 ## To Use:
 
 1. Instantiate the loader class  ``` let loader = Loader(vc: self) ```
-2. To start the loading animation, call the method startAnimations and specify the position and size of your preferred loading indicator ``` loader.startAnimations(x: self.view.bounds.midX, y: self.view.bounds.midY, size: self.view.bounds.width * 0.3) ```
+2. To start the loading animation, call the method startAnimations, specify the position and size of your preferred loading indicator and color of choice``` loader.startAnimations(x: self.view.bounds.midX, y: self.view.bounds.midY, size: self.view.bounds.width * 0.3, color: UIColor.white) ``` 
 3. To end the animations, just call the method stopAllAnimations with the specific case, whether it's a success: ``` loader.stopAllAnimations(result: .success) ``` or failure: ``` loader.stopAllAnimations(result: .failure) ```
 
 ## Extra Notes:

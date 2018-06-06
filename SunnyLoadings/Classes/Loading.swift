@@ -36,7 +36,7 @@ public class Loader {
         self.vc = vc
     }
     
-    public func animateBaseViewLayers(x: CGFloat, y: CGFloat, size: CGFloat) {
+    public func animateBaseViewLayers(x: CGFloat, y: CGFloat, size: CGFloat, color: UIColor) {
         
         //MARK: BASE VIEW (FOR ROTATING, EXPANDING VIEWS)
         
@@ -98,15 +98,15 @@ public class Loader {
         // adding the right triangle layer
         triangleLayerOne = CAShapeLayer()
         triangleLayerOne.path = rightTriangle.cgPath
-        triangleLayerOne.strokeColor = UIColor.white.cgColor
-        triangleLayerOne.fillColor = UIColor.white.cgColor
+        triangleLayerOne.strokeColor = color.cgColor
+        triangleLayerOne.fillColor = color.cgColor
         triangleLayerOne.zPosition = 5
         
         // adding the left triangle layer
         triangleLayerTwo = CAShapeLayer()
         triangleLayerTwo.path = leftTriangle.cgPath
-        triangleLayerTwo.strokeColor = UIColor.white.cgColor
-        triangleLayerTwo.fillColor = UIColor.white.cgColor
+        triangleLayerTwo.strokeColor = color.cgColor
+        triangleLayerTwo.fillColor = color.cgColor
         triangleLayerTwo.zPosition = 5
         
         // full circle layer
@@ -114,7 +114,7 @@ public class Loader {
         baseCircleLayer.path = circlePath.cgPath
         baseCircleLayer.position = CGPoint(x: baseView.bounds.midX, y: baseView.bounds.midY)
         baseCircleLayer.fillColor = UIColor.clear.cgColor
-        baseCircleLayer.strokeColor = UIColor.white.cgColor
+        baseCircleLayer.strokeColor = color.cgColor
         baseCircleLayer.lineWidth = baseView.bounds.width * 0.10466
         
         

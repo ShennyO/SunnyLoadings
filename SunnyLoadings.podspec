@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SunnyLoadings'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SunnyLoadings is a smooth, simple to use loading indicator.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ShennyO/SunnyLoadings'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ShennyO' => 'ShenOuyang.work@gmail.com' }
+  s.author           = { 'ShennyO' => 'SunnyOuyang.work@gmail.com' }
   s.source           = { :git => 'https://github.com/ShennyO/SunnyLoadings.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
